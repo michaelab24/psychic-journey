@@ -18,7 +18,7 @@ function Nav(props) {
     <header className="flex-row px-1">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+          <span role="img" aria-label="camera"> 🤘</span> Irish Wristwatch
         </a>
       </h2>
       <nav>
@@ -29,7 +29,7 @@ function Nav(props) {
             </a>
           </li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+            <span onClick={() => setContactSelected(true)}>Shows</span>
           </li>
           {categories.map((category) => (
             <li
