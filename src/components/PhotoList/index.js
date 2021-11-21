@@ -32,6 +32,11 @@ const PhotoList = ({ category }) => {
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
     },
     {
+      name: 'irish wristwatch',
+      category: 'commercial',
+      description: 'Lorem ipsum dolor sit amet, consect'
+    },
+    {
       name: 'Cat green eyes',
       category: 'portraits',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
