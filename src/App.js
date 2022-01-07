@@ -8,9 +8,9 @@ function App() {
   const [categories] = useState([
     {
       name: 'commercial',
-      description: 'Check out the latest from Irish Wristwatch including our new music video for our single "Undecided" and scan the QR code to hear our latest soundcloud releases!',
+      description: 'Check out the latest from Irish Wristwatch below including our new music video for our single "Undecided" and scan the QR code to hear our latest soundcloud releases!',
     },
-    { name: 'portraits', description: 'Portraits of animals in my life' },
+    { name: 'portraits', description: 'The Watch' },
     { name: 'food', description: 'Delicious delicacies' },
     { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
   ]);

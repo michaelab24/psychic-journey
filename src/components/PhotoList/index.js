@@ -24,24 +24,14 @@ const PhotoList = ({ category }) => {
       description: 'Scan to listen to our latest Demos'
     },
     {
-      name: 'Cat green eyes',
+      name: 'Theo Halls',
       category: 'portraits',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Vocals, Synths, Bass'
     },
     {
-      name: 'Green parrot',
+      name: 'Pale Feet',
       category: 'portraits',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Yellow macaw',
-      category: 'portraits',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Pug smile',
-      category: 'portraits',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Great shot from our video Undecided'
     },
     {
       name: 'Pancakes',
