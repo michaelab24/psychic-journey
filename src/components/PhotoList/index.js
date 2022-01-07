@@ -7,7 +7,7 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     //1.add rest of photos start with commercial, index stars at 0
-    //2. fix commercial page to show correct stuff
+    //2. fix all pages to show correct stuff/fix categories (music, pics, not food and portraits)
     {
       name: 'Irish Wristwatch',
       category: 'commercial',
@@ -34,30 +34,31 @@ const PhotoList = ({ category }) => {
       description: 'Great shot from our video Undecided'
     },
     {
-      name: 'Pancakes',
+      name: '1517',
       category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Our most recent demo release 1517, scan QR code on home page!',
     },
     {
-      name: 'Burrito',
+      name: 'This Feeling (Make a Heartbeat)',
       category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Our most anthemic piece.'
     },
     {
-      name: 'Scallop pasta',
+      name: 'The Promise',
       category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Our Soundcloud link: https://soundcloud.com/irish-wristwatch-74510498'
     },
     {
-      name: 'Burger',
+      name: 'In The End (Cloud Song)',
       category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: '"In the end everything will be alright"'
     },
     {
-      name: 'Fruit bowl',
+      name: 'Love',
       category: 'food',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Plenty of love to go around - Irish Wristwatch'
     },
+
     {
       name: 'Green river',
       category: 'landscape',
