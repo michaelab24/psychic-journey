@@ -1,6 +1,10 @@
 import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
+//4. fix navbar 
+//5. delete/rework pages
+//6. figure out how to get youtube links
+
 function Nav(props) {
   const {
     categories = [],
@@ -25,7 +29,7 @@ function Nav(props) {
         <ul className="flex-row">
           <li className="mx-2">
             <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
+              About Us
             </a>
           </li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>

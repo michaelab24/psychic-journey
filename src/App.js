@@ -8,7 +8,7 @@ function App() {
   const [categories] = useState([
     {
       name: 'commercial',
-      description: 'Photos of grocery stores, food trucks, and other commercial projects',
+      description: 'Check out the latest from Irish Wristwatch including our new music video for our single "Undecided" and scan the QR code to hear our latest soundcloud releases!',
     },
     { name: 'portraits', description: 'Portraits of animals in my life' },
     { name: 'food', description: 'Delicious delicacies' },

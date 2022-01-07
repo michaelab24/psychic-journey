@@ -6,35 +6,22 @@ const PhotoList = ({ category }) => {
   const [currentPhoto, setCurrentPhoto] = useState();
 
   const [photos] = useState([
+    //1.add rest of photos start with commercial, index stars at 0
+    //2. fix commercial page to show correct stuff
     {
-      name: 'Grocery aisle',
+      name: 'Irish Wristwatch',
       category: 'commercial',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'We are the watch.'
     },
     {
-      name: 'Grocery booth',
+      name: 'Undecided',
       category: 'commercial',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'https://www.youtube.com/watch?v=E9PXuIOsV1E'
     },
     {
-      name: 'Building exterior',
+      name: 'Soundcloud QR',
       category: 'commercial',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Restaurant table',
-      category: 'commercial',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Cafe interior',
-      category: 'commercial',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'irish wristwatch',
-      category: 'commercial',
-      description: 'Lorem ipsum dolor sit amet, consect'
+      description: 'Scan to listen to our latest Demos'
     },
     {
       name: 'Cat green eyes',
