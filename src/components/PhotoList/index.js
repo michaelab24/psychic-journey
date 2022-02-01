@@ -59,31 +59,31 @@ const PhotoList = ({ category }) => {
       description: 'Plenty of love to go around - Irish Wristwatch'
     },
 
-    {
-      name: 'Green river',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Docks',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Panoramic village by sea',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Domestic landscape',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
-    {
-      name: 'Park bench',
-      category: 'landscape',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-    },
+    // {
+    //   name: 'Green river',
+    //   category: 'landscape',
+    //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+    // },
+    // {
+    //   name: 'Docks',
+    //   category: 'landscape',
+    //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+    // },
+    // {
+    //   name: 'Panoramic village by sea',
+    //   category: 'landscape',
+    //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+    // },
+    // {
+    //   name: 'Domestic landscape',
+    //   category: 'landscape',
+    //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+    // },
+    // {
+    //   name: 'Park bench',
+    //   category: 'landscape',
+    //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+    // },
   ]);
 
   const currentPhotos = photos.filter((photo) => photo.category === category);
