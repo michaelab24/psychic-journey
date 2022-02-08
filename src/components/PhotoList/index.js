@@ -58,6 +58,11 @@ const PhotoList = ({ category }) => {
       category: 'food',
       description: 'Plenty of love to go around - Irish Wristwatch'
     },
+    {
+      name: 'Breathe',
+      category: 'food',
+      description: 'Our latest demo breathe'
+    },
 
     
   ]);
