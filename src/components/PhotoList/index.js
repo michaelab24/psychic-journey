@@ -63,6 +63,11 @@ const PhotoList = ({ category }) => {
       category: 'food',
       description: 'Our latest demo breathe'
     },
+    {
+      name: 'I Feel As Though',
+      category: 'food',
+      description: 'Demo of the song "I Feel As Though" by Irish Wristwatch, Nashville, TN.'
+    }
 
     
   ]);
