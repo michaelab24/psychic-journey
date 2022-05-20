@@ -10,62 +10,62 @@ const PhotoList = ({ category }) => {
     //2. fix all pages to show correct stuff/fix categories (music, pics, not food and portraits)
     {
       name: 'Irish Wristwatch',
-      category: 'commercial',
+      category: 'latest',
       description: 'We are the watch.'
     },
     {
       name: 'Undecided',
-      category: 'commercial',
+      category: 'latest',
       description: 'https://www.youtube.com/watch?v=E9PXuIOsV1E'
     },
     {
       name: 'Soundcloud QR',
-      category: 'commercial',
+      category: 'latest',
       description: 'Scan to listen to our latest Demos'
     },
     {
       name: 'Theo Halls',
-      category: 'portraits',
+      category: 'pictures',
       description: 'Vocals, Synths, Bass'
     },
     {
       name: 'Pale Feet',
-      category: 'portraits',
+      category: 'pictures',
       description: 'Great shot from our video Undecided'
     },
     {
       name: '1517',
-      category: 'food',
+      category: 'music',
       description: 'Our most recent demo release 1517, scan QR code on home page!',
     },
     {
       name: 'This Feeling (Make a Heartbeat)',
-      category: 'food',
+      category: 'music',
       description: 'Our most anthemic piece.'
     },
     {
       name: 'The Promise',
-      category: 'food',
+      category: 'music',
       description: 'Our Soundcloud link: https://soundcloud.com/irish-wristwatch-74510498'
     },
     {
       name: 'In The End (Cloud Song)',
-      category: 'food',
+      category: 'music',
       description: '"In the end everything will be alright"'
     },
     {
       name: 'Love',
-      category: 'food',
+      category: 'music',
       description: 'Plenty of love to go around - Irish Wristwatch'
     },
     {
       name: 'Breathe',
-      category: 'food',
+      category: 'music',
       description: 'Our latest demo breathe'
     },
     {
       name: 'I Feel As Though',
-      category: 'food',
+      category: 'music',
       description: 'Demo of the song "I Feel As Though" by Irish Wristwatch, Nashville, TN.'
     }
 

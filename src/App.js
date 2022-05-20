@@ -8,11 +8,11 @@ import ContactForm from './components/Contact';
 function App() {
   const [categories] = useState([
     {
-      name: 'commercial',
+      name: 'latest',
       description: 'Check out the latest from Irish Wristwatch below including our new music video for our single "Undecided" and scan the QR code to hear our latest soundcloud releases!',
     },
-    { name: 'portraits', description: 'The Watch' },
-    { name: 'food', description: 'Our Latest Releases and Demos' },
+    { name: 'pictures', description: 'The Watch' },
+    { name: 'music', description: 'Our Latest Releases and Demos' },
     // { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
   ]);
 
