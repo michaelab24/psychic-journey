@@ -98,3 +98,8 @@ const PhotoList = ({ category }) => {
 };
 
 export default PhotoList;
+
+//putting in a comment cuz i havent made a commit in way too long cuz i can be a lazy POS sometimes
+//one of these days we add the song pics cuz fuck it why not just because
+//then we figure out that widgets shit which who the fuk knows how long that will take 
+//but here we are \m/
