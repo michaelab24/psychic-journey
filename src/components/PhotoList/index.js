@@ -67,6 +67,11 @@ const PhotoList = ({ category }) => {
       name: 'I Feel As Though',
       category: 'music',
       description: 'Demo of the song "I Feel As Though" by Irish Wristwatch, Nashville, TN.'
+    },
+    {
+      name: 'Have a Little Faith',
+      category: 'music',
+      description: 'Demo of the song "Have a Little Faith" by Irish Wristwatch'
     }
 
     
